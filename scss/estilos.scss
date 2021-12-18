@@ -1,0 +1,22 @@
+@import "sizes";
+
+
+
+body {
+    main{
+    background-image: url(../public/fondo.png);
+    background-repeat:repeat-y;
+    }
+}
+h1 {
+    font-size: $h1-size;
+}
+h2 {
+    font-size: $h2-size;
+}
+h3 {
+    font-size: $h3-size;
+}
+p {
+    font-size: $p-sizes;
+}

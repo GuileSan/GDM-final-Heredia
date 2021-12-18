@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CDn de Bootstrap y AOS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/pruebacss.css">
+    
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
+            <img src="../public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
           </a>
           <a class="navbar-brand" href="index.html">Editorial GDM</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +43,80 @@
             </ul>
           </div>
         </div>
-    </nav>    
+    </nav>
+    </header>
+    <main>
+      <section class="container">
+        <div class="row">
+          <div data-aos="fade-right" class="col-md-5">
+            <img src="../public/gdmlogo.svg" width="500px" alt="pen-display">
+          </div>
+            <div class="col-md-7 d-flex flex-column aling-items-start justify-content-center text-center animate__animated animate__fadeInDownBig">
+                <p >¿Quieres formar parte de la gran comunidad de</p>
+                <h1><strong>EDITORIAL GDM?</strong></h1>
+            </div>
+            <hr>
+            <div class="col-md-12 text-center">
+              <h2><strong>Siempre estamos en busqueda de nuevos talentos</strong></h2>
+              <h2><strong>Animate a crear nuevos mundos con tus propias manos.</strong></h2>
+            </div>
+        </div>
+      </section>
+      <section class="container">
+          <div class="row">
+              <div class="p-5">
+                  <form>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div class="mb-3">
+                      <label for="formFileMultiple" class="form-label">Mandanos tu Cv</label>
+                      <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepta los terminos y condiciones?</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>
+      </section>
+    </main>
+    <hr>
+    <footer class="container p-5 w-100">
+      <div class="row">
+        <div class="col-md-12 d-flex flex-column aling-items-start justify-content-center text-center p-5">
+          <h3>Puedes encontrarnos en:</h3>
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-start justify-content-center text-center">
+            <img src="../public/facebook.svg" width="30px" alt="Logo Facebook">
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-center justify-content-center text-center">
+            <img src="../public/instagram.svg" width="30px" alt="Logo Instagram">
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-start justify-content-center text-center">
+            <img src="../public/twitter.svg" width="30px" alt="Logo Twitter">
+        </div>
+      </div>
+    </footer>
+    
+
+    <!--Scripts de Bootstrap y AOs-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>

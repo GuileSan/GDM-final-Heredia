@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CDn de Bootstrap y AOS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/pruebacss.css">
+
     <title>Document</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
+            <img src="../public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
           </a>
           <a class="navbar-brand" href="index.html">Editorial GDM</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +41,85 @@
             </ul>
           </div>
         </div>
-    </nav>    
+    </nav>
+    <main>
+      <section class="container p-2">
+        <div class="row">
+          <div data-aos="fade-right" class="col-md-5">
+            <img src="../public/shop.png" width="650px" alt="imagen-ofertas">
+          </div>
+          <div class="col-md-7 d-flex flex-column aling-items-start justify-content-center text-center">
+            <h1>Shop</h1>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="container">
+        <div class="row" data-aos="zoom-in-up">
+            <div class="col-md-6 p-2">
+                <img src="../public/pano-dientes.png" alt="portada-panodientes">
+                <p>Pan o Dientes</p>
+                <p>$15.99</p>
+                <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+            </div>
+            <div class="col-md-6 p-2" data-aos="zoom-in-up">
+                <img src="../public/plagiador.png" alt="portada-plagiador">
+                <p>Plagiador Telepatico</p>
+                <p>$15.99</p>
+                <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+            </div>
+            <div class="col-md-6 p-2" data-aos="zoom-in-up">
+                <img src="../public/southern.png" alt="portada-southern">
+                <p>Southern Madnes</p>
+                <p>$15.99</p>
+                <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+            </div>
+            <div class="col-md-6 p-2" data-aos="zoom-in-up">
+                <img src="../public/vakam.png" alt="portada-vakam">
+                <p>Vakaaam</p>
+                <p>$15.99</p>
+                <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+            </div>
+            <div class="col-md-6 p-2" data-aos="zoom-in-up">
+                <img src="../public/hermanosanimales.png" alt="portada-hermanos">
+                <p>Hermanos Animales</p>
+                <p>$15.99</p>
+                <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+            </div>
+            <div class="col-md-6 p-2" data-aos="zoom-in-up">
+              <img src="../public/antologia.png" alt="portada-antologia">
+              <p>Cuando el viento no mueve las hojas</p>
+              <p>$15.99</p>
+              <button type="button" class="btn btn-primary"><a class="btn-link" href="shop.html">Comprar</a></button>
+          </div>
+        </div>
+    </section> 
+    </main>
+    <hr>
+    <footer class="container p-5 w-100">
+      <div class="row">
+        <div class="col-md-12 d-flex flex-column aling-items-start justify-content-center text-center p-5">
+          <h3>Puedes encontrarnos en:</h3>
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-start justify-content-center text-center">
+            <img src="../public/facebook.svg" width="30px" alt="Logo Facebook">
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-center justify-content-center text-center">
+            <img src="../public/instagram.svg" width="30px" alt="Logo Instagram">
+        </div>
+        <div class="col-md-4 d-flex flex-row aling-items-start justify-content-center text-center">
+            <img src="../public/twitter.svg" width="30px" alt="Logo Twitter">
+        </div>
+      </div>
+    </footer>
+    
+
+    <!--Scripts de Bootstrap y AOs-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html>
