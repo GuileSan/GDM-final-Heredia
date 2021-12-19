@@ -2,6 +2,22 @@ body main {
   background-image: url(../public/fondo.png);
   background-repeat: repeat-y; }
 
+.sec-titulo {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; }
+
+#items-shop div div {
+  background-color: #fff;
+  height: 650px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 5px; }
+
+.sec-img {
+  max-width: 100%;
+  width: 650px;
+  height: auto; }
+
 h1 {
   font-size: 3.5em; }
 
@@ -16,3 +32,32 @@ p {
 
 .btn {
   width: 100px; }
+
+li:hover {
+  transform: scale(1.2); }
+
+@media (max-width: 768px) {
+  .sec-img {
+    width: 350px;
+    height: auto; }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  h1 {
+    font-size: 1.8em; }
+  h2 {
+    font-size: 1.5em; }
+  h3 {
+    font-size: 1.3em; }
+  p {
+    font-size: 1em; }
+  .items-img {
+    width: auto;
+    height: auto;
+    max-width: 300px; }
+  #items-shop div div {
+    max-width: 300px;
+    height: auto; } }
