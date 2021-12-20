@@ -11,37 +11,138 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="css/pruebacss.css">
+    <!--Meta tags-->
+    <meta name="keywords" content="editorial, comics, mangas, historietas, comicbook">
+    <meta name="description" content="GDM es una editorial independiente, publicamos nuestras propias historias y estamos en constante busqueda de nuevos talentos que quieran mostrar al mundo de los que son capaces contar.">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <title>Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
-          </a>
-          <a class="navbar-brand" href="index.html">Editorial GDM</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/lanzamientos.html">Lanzamientos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/shop.html">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/joinus.html">Join Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="public/gdmlogo.svg" alt="logo-editorial-gdm" width="50" height="50">
+              </a>
+              <a class="navbar-brand" href="index.html">Editorial GDM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/lanzamientos.html">Lanzamientos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/joinus.html">Join Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home-sec">
+            <div class="row">
+              <div data-aos="fade-right" class="col-sm-12 col-md-12 col-lg-6">
+                <img src="public/gdmlogo.svg" class="home-sec-img" width="900px"  alt="logo-GDM">
+              </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column aling-items-start justify-content-center fs-3 text-center animate__animated animate__jackInTheBox">
+                    <p >Creamos, página a página, nuestro propio mundo.</p>
+                    <h1><strong>EDITORIAL GDM</strong></h1>
+                </div>
+            </div>
+        </section>
+        <section class="home-sec-2 container p-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column aling-items-start justify-content-center text-center text-white">
+                <h2>GDM es un sueño colectivo, y hay lugar para vos.</h2>
+                <p class="fs-5">En 2018, luego de terminar un taller integral de historietas, y luego de sacarlos de los números rojos al bar donde tomabamos el taller, surgió la ilusion de darle forma a una editorial donde publicar nuestras propias historias. Así nació <strong>GDM</strong>, después de mucha birra y risas, y es un espacio donde nos permitimos volver a imaginar sintiendonos otra vez imparables, como cuando la altura no nos permitia más que crear nuestro propio mundo.</p>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="public/panodientes.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="public/plagiador.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="public/hermanosanimales.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section class="container present p-5 shadow-sm">
+            <div class="row">
+              <div data-aos="fade-down-right" class="col-sm-12 col-md-12 col-lg-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="public/presentacion.png" class="d-block w-100" alt="imagen presentacion editorial">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="public/guile.png" class="d-block w-100" alt="imagen presentacion guile san">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="public/noui.png"  class="d-block w-100" alt="imagen presentacion noe">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="public/mati.jpg"  class="d-block w-100" alt="imagen presentacion mati">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column aling-items-center justify-content-center text-center">
+                    <h2>¿Quienes somos?</h2>
+                    <p>Somos un grupo de amigos que sueña con recorrer el mundo contando sus historias, pero tenemos las puertas abiertas para todos...</p>
+                    <p>¿Te animas a formar parte?</p>
+                    <button type="button" id="btn-lanza" class="btn btn-warning"><a class="btn-link" href="pages/joinus.html">Unirme</a></button>
+                </div>
+            </div>
+          </section>
+    </main>
     <footer class="container p-5 w-100">
         <div class="row">
           <div class="col-md-12 d-flex flex-column aling-items-start justify-content-center text-center p-5">
