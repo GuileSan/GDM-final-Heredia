@@ -66,7 +66,9 @@ li:hover {
 @media (max-width: 768px) {
   .sec-img {
     width: 350px;
-    height: auto; }
+    height: auto;
+    display: flex;
+    justify-content: center; }
   .container {
     display: flex;
     flex-direction: column;
@@ -84,9 +86,9 @@ li:hover {
   .items-img {
     width: auto;
     height: auto;
-    min-width: 300px; }
+    max-width: 300px; }
   #items-shop div div {
-    min-width: 300px;
+    max-width: 300px;
     height: auto; }
   .home-sec-img {
     width: auto;

@@ -28,7 +28,7 @@ nav {
     background-color: #fff;
     border-radius: 20px;
     margin-top: 10px;
-    
+
 }
 .sec-titulo {
     border-bottom-left-radius: 30px;
@@ -78,6 +78,8 @@ li:hover {
     .sec-img {
         width: 350px;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
     .container {
         display: flex;
@@ -101,12 +103,12 @@ li:hover {
     .items-img {
         width: auto;
         height: auto;
-        min-width: 300px;
+        max-width: 300px;
     }
     #items-shop {
        div {
            div {
-            min-width: 300px;
+            max-width: 300px;
             height: auto;
            }
        }
