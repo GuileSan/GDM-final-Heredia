@@ -37,7 +37,9 @@ nav {
   height: 650px;
   width: 500px;
   border-radius: 10px;
-  margin: 5px; }
+  margin: 5px;
+  text-align: center;
+  padding-top: 15px; }
 
 .sec-img {
   max-width: 100%;
